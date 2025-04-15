@@ -1,0 +1,21 @@
+function add(num1, num2){
+    return num1 + num2;
+}
+
+function subtract(num1, num2){
+    return num1 - num2;
+}
+
+function multiply(num1, num2){
+    return num1 * num2;
+}
+
+function divide(num1, num2){
+    return num1/num2;
+}
+
+function calculate(num1, num2, operator){
+    return operator(num1, num2); 
+    /*This is called higher order function, if operator selected is add it'll call add function, if it is
+    multiply it'll call multiply function and so on*/
+}
