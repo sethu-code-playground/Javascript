@@ -1,0 +1,53 @@
+# Environment variables
+.env
+.env.*.local
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Debugger configurations
+.vscode/launch.json
+.vscode/tasks.json
+
+# Dependency directories
+jspm_packages/
+
+# Temporary files
+*.bak
+*.orig
+
+# MacOS specific files
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Desktop.ini
+$RECYCLE.BIN/
+
+# Package manager lock files (if not needed)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# SASS/SCSS cache
+.sass-cache/
+
+# TypeScript build files
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm/
+
+# Parcel cache
+.cache/
+
+# Storybook build files
+.out/
+storybook-static/
+
+# Next.js build output
+.next/
+
+# Nuxt.js build output
+.nuxt/
